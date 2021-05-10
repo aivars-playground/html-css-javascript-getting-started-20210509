@@ -70,4 +70,51 @@ article {
   aside {
     margin-left: 2%;
   }
+  .columns-desktop {
+    display: flex;
+  }
+}
+
+.columns {
+  display: flex;
+}
+
+/* Pies */
+
+.pie {
+  width: 150;
+  padding: 10px;
+  margin: 10px;
+  background-color: lightgray;
+  border: 1px solid tan;
+  border-radius: 5px;
+
+}
+
+.pie img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.pie .title {
+  font-weight: bolder;
+}
+
+.pie .columns {
+  width: 100%;
+}
+
+.pie .price {
+  text-align: right;
+}
+
+.pie .columns div {
+  flex: 1;
+}
+
+.pie button {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid tan;
+  border-radius: 5px;
 }
